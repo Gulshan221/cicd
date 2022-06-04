@@ -11,6 +11,10 @@ resource "aws_iam_user" "user3" {
   name = "Jenkins"
 }
 
+resource "aws_iam_user" "user4" {
+  name = "Ahrorbek"
+}
+
 # I am creating IAM group
 resource "aws_iam_group" "group1" {
   name = "operations"
